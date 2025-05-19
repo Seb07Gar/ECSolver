@@ -1,12 +1,15 @@
 [project]
-name = "factorial"
+
+name = "excel-solver"
 version = "0.1.0"
-description = "Utilidad de factorial"
+description = "Utilidad de solver para el proyecto de Excel"
+
 authors = [
-    { name = "Cristian" },
-    { name = "Michael" },
-    { name = "Angela" }
+    { name = "Cristian Bonilla" },
+    { name = "Michael Jimenez" },
+    { name = "Angela Santos" }
 ]
+
 license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.12"
@@ -16,4 +19,4 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-factorial-cli = "factorial.factorial:main"
+excel-solver-cli = "solver.solver:main"
