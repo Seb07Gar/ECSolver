@@ -45,7 +45,7 @@ excel-solver/
 ### 1. Clonar el Repositorio
 
 ```bash
-git clone https://github.com/ACMUD/excel-solver
+git clone https://github.com/ACMUD/ECSolver
 cd excel-solver
 ```
 
